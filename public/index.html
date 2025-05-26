@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
 </head>
 <body class="">
@@ -67,12 +68,12 @@
             </p>
             <button class="px-8 py-4 bg-emerald-600 rounded-[40px] border-0 inline-flex justify-center items-center  w-[16.438rem] h-[3.25rem] md:mt-0 mt-6 mb-10">
                 <a href="#" class="flex items-center gap-[0.2rem]">
-                    <img src="../Img/whatsapp_icon.svg">
+                    <img src="./Img/whatsapp_icon.svg">
                     <span class="text-white text-sm font-bold font-['DM_Sans'] uppercase">Agende sua Consulta</span> 
                 </a>
             </button>
         </div>      
-         <img src="../Img/mobile_hero_img.svg" class="md:w-[26.25rem] md:h-[34.188rem]">
+         <img src="./Img/mobile_hero_img.svg" class="md:w-[26.25rem] md:h-[34.188rem]">
     </section>
     <section class="bg-[#F7F9F9] pb-24">
         <div class="md:max-w-7xl md:mx-auto">
@@ -172,7 +173,7 @@
      
       <div class="container mx-auto px-4 flex flex-col md:flex-row items-center  justify-between gap-16 max-w-7xl">
           <div class="flex-1 flex justify-center md:justify-end">
-            <img src="./Img/About_image.svg" alt="Sobre nós" class="md:w-[30rem] md:h-[25.875rem]">
+            <img src="./Img/About_image.svg" class="imagem-sobre" alt="Sobre nós" class="md:w-[30rem] md:h-[25.875rem]">
           </div>
         
           <div class="flex-1">
@@ -190,7 +191,61 @@
      
     </section>
 
-
+    <section class="bg-white md:hidden mobile version">
+       <div class="flex flex-col container md:max-w-7xl   pt-16  ">  
+        <div class="flex flex-col md:flex-row justify-start  items-start    w-fit  mx-auto gap-4">
+          <div class="flex flex-col gap-6 ">
+          <h6 class="text-neutral-800  font-bold font-['DM_Sans'] w-72 text-3xl text-start ">Entre em contato com a gente!</h6>
+          <div class="flex flex-col w-full relative gap-4">
+          <div class="flex gap-2">
+            <img src="./Img/Map_icon.svg"/>
+            <span class="text-zinc-600 text-base font-normal font-['DM_Sans'] leading-normal left-[2rem] justify-start">R. Amauri Souza, 346</span>
+          </div>
+          <div class="flex justify-start items-start gap-2 ">
+            <img src="./Img/Mail_icon.svg"/>
+            <span class="text-zinc-600 text-base font-normal font-['DM_Sans'] leading-normal left-[2rem] justify-start">contato@doctorcare.com</span>
+          </div>  
+        </div>            
+          <button class="px-8 py-4 bg-emerald-600 rounded-[40px] border-0 inline-flex justify-center items-center  w-[16.438rem] h-[3.25rem] md:mt-0 mt-6 mb-10">
+            <a href="#" class="flex items-center gap-[0.2rem]">
+                <img src="./Img/White_Whatsapp.svg">
+                <span class="text-white text-sm font-bold font-['DM_Sans'] uppercase">Agende sua Consulta</span> 
+            </a>
+        </button>
+      </div>
+        <img src="./Img/contact_image.jpg"
+        class="md:w-[35.938rem] md:h-[23.688rem] w-full max-w-md  " 
+        />
+        </div>
+       
+       </div>
+    </section>
+    
+    <section class=" sessao-contato bg-white  hidden md:block desktop version ">      
+       <div class=" testecss flex items-center justify-center px-9  mx-auto gap-16 ">
+        <div class=" flex flex-col">
+          <div class="flex flex-col gap-11 teste-tailwind">
+          <h6 class="text-neutral-800  font-bold font-['DM_Sans'] w-72 text-3xl text-start ">Entre em contato com a gente!</h6>
+          <div class="flex">
+            <img src="./Img/Map_icon.svg">
+            <span class="text-zinc-600 text-base font-normal font-['DM_Sans'] leading-normal left-[2rem] justify-start">R. Amauri Souza, 346</span>
+          </div>
+          <div class="flex ">
+            <img src="./Img/Mail_icon.svg">
+            <span class="text-zinc-600 text-base font-normal font-['DM_Sans'] leading-normal left-[2rem] justify-start">contato@doctorcare.com</span>
+          </div>
+        </div>
+          <button class="test-button px-8 py-4 bg-emerald-600 rounded-[40px] border-0 inline-flex justify-center items-center  w-[16.438rem] h-[3.25rem] ">
+            <a href="#" class="flex items-center gap-[0.2rem]">
+                <img src="./Img/White_Whatsapp.svg">
+                <span class="text-white text-sm font-bold font-['DM_Sans'] uppercase">Agende sua Consulta</span> 
+            </a>
+        </button>
+        </div>
+        <img src="./Img/contact_image.jpg"
+        class="contact_image"/>
+       </div>
+    </section>
     
 
 

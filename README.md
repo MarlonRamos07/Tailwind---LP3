@@ -2,13 +2,13 @@
 
 **Tailwind---LP3** é um projeto de landing page desenvolvido com **Tailwind CSS** e componentes do **Flowbite**, como parte de uma atividade da disciplina de **Desenvolvimento de Interfaces Web para Dispositivos Móveis** da **Universidade de Tecnologia FATEC Pel (UniSenac)**. O objetivo é construir uma interface moderna, responsiva e fiel ao layout disponibilizado no Figma.
 
----
+
 
 ## 📌 Descrição
 
 Este projeto consiste em uma landing page baseada em um protótipo no Figma, utilizando **Tailwind CSS** para o estilo e **Flowbite** para componentes interativos. A proposta visa aplicar boas práticas de desenvolvimento web com foco em design responsivo e fidelidade visual ao layout original.
 
----
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -18,7 +18,7 @@ Este projeto consiste em uma landing page baseada em um protótipo no Figma, uti
 - Git & GitHub  
 - Vite ou Live Server para desenvolvimento local
 
----
+
 
 ## 📁 Estrutura do Projeto
 Tailwind---LP3/

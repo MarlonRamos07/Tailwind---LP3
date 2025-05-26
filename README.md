@@ -52,6 +52,7 @@ Tailwind---LP3/
 ### 1. Clone o Repositório
 
 git clone https://github.com/MarlonRamos07/Tailwind---LP3
+
 cd Tailwind---LP3
 
 ### 2. Instale as Dependências (caso use Vite)
@@ -67,7 +68,7 @@ Ou, alternativamente, abra o index.html diretamente no navegador com uma extens�
 ## 🎨 Layout (Figma)
 
 Você pode visualizar o layout original no Figma clicando no link abaixo:
-📎https://www.figma.com/design/YKpx4a7MJkKmpOLBGCCuch/Atividade-DWDM?node-id=1736-311&m=dev
+https://www.figma.com/design/YKpx4a7MJkKmpOLBGCCuch/Atividade-DWDM?node-id=1736-311&m=dev
 
 ## 💻 Link para o Projeto (Deploy feito com Vercel)
 
